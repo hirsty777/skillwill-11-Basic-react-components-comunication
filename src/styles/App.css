@@ -1,0 +1,50 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min-content,440px));
+    justify-content: center;
+    margin: 20px 0 20px 0;
+    gap: 50px;
+}
+
+/*bookCard styles*/
+.book-card{
+    width: 400px;
+    min-height: 400px;
+    padding: 30px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 0.7rem #000;
+    border-radius: 0.5rem;
+}
+
+.book-image{
+    width: 200px;
+    height: 200px;
+}
+.book-image img{
+    width: 100%;
+    height: 100%;
+    border-radius:0.5rem;
+    box-shadow: 0 0 0.7rem #000;
+}
+.book-characters, .book-description{
+    align-self: flex-start;
+}
+.btn{
+    margin-top: 10px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.btn button{
+    cursor: pointer;
+    padding: 8px;
+    border: none;
+    border-radius: 0.2rem;
+    background: #000;
+    color: aliceblue;
+    font-weight: 700;
+}
