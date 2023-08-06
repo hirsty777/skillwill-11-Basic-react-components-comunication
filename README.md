@@ -1,4 +1,4 @@
-# skillWill Task
+# SkillWill Task
 
 ### `Basic react components comunicationt`
 
